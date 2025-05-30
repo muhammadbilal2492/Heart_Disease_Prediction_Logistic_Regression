@@ -1,4 +1,18 @@
 # Heart_Disease_Prediction_Logistic_Regression
+
+Tools & Technologies
+- R
+- RStudio
+- Packages: `dplyr`, `ggplot2`, `caret`
+
+ ## Key Steps
+1. Data Cleaning: Handled missing values and standardized variable formats.
+2. Exploratory Data Analysis (EDA): Identified trends, patterns, and correlations using visualizations.
+3. Modeling: Built a logistic regression model to classify heart disease presence.
+4. Evaluation: Assessed model performance using accuracy, confusion matrix, ROC curve, and AUC score.
+5. Visualization: Used `ggplot2` to plot insights and model diagnostics.
+
+   
 Introduction:
 Heart disease remains one of the leading causes of death globally, accounting for millions of fatalities each year. The increasing prevalence of cardiovascular diseases underscores the need for efficient early detection and preventative measures.
 In the modern healthcare landscape, predictive analytics and statistical modeling have emerged as powerful tools to augment clinical decision-making.
@@ -11,9 +25,7 @@ The scope of this report includes a detailed methodology, model specification, t
 
 
 Data Description and Exploration:
-
 The dataset used for this study originates from the UCI Machine Learning Repository. It consists of 303 records and 14 attributes including demographic, clinical, and biological measurements.
-
 The key variables are:
 
 age: Age of the patient
